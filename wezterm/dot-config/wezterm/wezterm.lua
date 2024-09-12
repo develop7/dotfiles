@@ -3,7 +3,7 @@ local wezterm = require 'wezterm'
 return {
 	default_prog = {"/usr/bin/nu"},
 	font = wezterm.font_with_fallback {
-		{ family = 'PragmataPro Mono' },
+		{ family = 'PragmataPro Mono', harfbuzz_features = { 'liga=0'} },
 		{ family = 'JetBrains Mono' },
 		'Droid Sans Mono',
 		"Noto Color Emoji"
