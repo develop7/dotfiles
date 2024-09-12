@@ -1,0 +1,7 @@
+[user]
+name = "Andrei Dziahel"
+email = "develop7@develop7.info"
+
+[ui]
+allow-init-native = true
+diff-editor = ":builtin"
